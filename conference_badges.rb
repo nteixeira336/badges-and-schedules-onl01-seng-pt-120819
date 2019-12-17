@@ -1,5 +1,5 @@
 # Write your code here.
-def batch_badge_creator (speakers) 
+def badge_maker (speakers) 
 names = [ ]
 count=0 
 while count < speakers.length do 
