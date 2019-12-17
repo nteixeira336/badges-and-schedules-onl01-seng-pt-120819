@@ -16,5 +16,5 @@ def assign_rooms(names)
  "Hello, #{speaker}! You'll be assigned to room #{index+1}!" 
  end 
 end
-batch_badge_creator
-assign_rooms
+puts batch_badge_creator
+puts assign_rooms
