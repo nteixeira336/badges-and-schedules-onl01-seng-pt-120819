@@ -2,7 +2,7 @@
 def batch_badge_creator (name) 
 count=0 
 while count< name.length do 
-  puts "Hello, #{name}!"
+  array= name 
 end
 batch_badge_creator
 end 
