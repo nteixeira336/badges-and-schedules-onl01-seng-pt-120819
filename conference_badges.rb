@@ -3,7 +3,7 @@ def batch_badge_creator (speakers)
 names = [ ]
 count=0 
 while count< speakers.length do 
-  "Hello, #{speakers}!" 
+  names= "Hello, #{speakers}!" 
  speakers+=1 
 end
 batch_badge_creator
