@@ -1,12 +1,9 @@
+require 'pry'
 # Write your code here.
-def batch_badge_creator (names) 
+def batch_badge_creator (name) 
 name= ["Edsger","Ada", "Charles","Alan","Grace","Linus","Matz"]
-count=0 
-while count <= names.length-1 
-puts "Hello, #{name}! You'll be assigned to room #{room}!"
-
-
+name.each_with_index do 
+ puts "Hello, #{name}! You'll be assigned to room #{room}!"
 end
-
-
+binding.pry 
 end 
