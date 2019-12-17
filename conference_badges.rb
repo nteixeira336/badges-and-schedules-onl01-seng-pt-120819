@@ -1,6 +1,7 @@
 # Write your code here.
 def batch_badge_creator (name) 
-names = [count=0 
+name = [ ]
+count=0 
 while count< name.length do 
   
 end
