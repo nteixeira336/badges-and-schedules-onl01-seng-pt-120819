@@ -2,7 +2,7 @@
 def batch_badge_creator (name) 
 count=0 
 while count< name.length do 
-  puts "Hello, #{name}! You'll be assigned to room #{rooms}!"
+  puts "Hello, #{name}!"
 end
 batch_badge_creator
 end 
